@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  display: inline;
+  padding: 0 3%;
+}
+
+.main-nav a {
+  text-decoration: none;
+  padding: .40em;
+  color: #FFFFFF;
+}
+
+.main-nav {
+  font-size: 1.5em;
+  font-weight: normal;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  text-align: left;
+}
+
+.main-header {
+  background-image: url("Images/Header-Background.jpg");
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 10;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 30px;
+  color: #24BC75;
+}
+
+.github {
+  padding: 0.7em;
+  display: inline-block;
+  text-decoration: none;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
+}
+
+.content {
+  text-align: left;
+  font-size: 20px;
+  margin: 2em;
+  color: #2B2B2B;
+}
