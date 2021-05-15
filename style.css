@@ -8,6 +8,23 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-image: url("Images/Body-Background.jpg");
+}
+
+h1 {
+  font-size: 3em;
+  margin: 10;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 30px;
+  color: #F9F9F9;
+}
+
+h3 {
+  font-size: 25px;
+  color: #F9F9F9;
 }
 
 .main-nav ul {
@@ -34,20 +51,13 @@ html, body {
 }
 
 .main-header {
-  background-image: url("Images/Header-Background.jpg");
-  padding-bottom: 50px;
+  background-image: url("Images/Head-Background.jpg");
+  padding-bottom: 200px;
   text-align: center;
 }
 
-h1 {
-  font-size: 3em;
-  margin: 10;
-  color: #FFFFFF;
-}
-
-h2 {
-  font-size: 30px;
-  color: #24BC75;
+.main-h2 {
+  font-size: 45px;
 }
 
 .github {
@@ -59,9 +69,13 @@ h2 {
   border-radius: 2px;
 }
 
+.link {
+  color: #ECECEC;
+}
+
 .content {
   text-align: left;
-  font-size: 20px;
+  font-size: 25px;
   margin: 2em;
-  color: #2B2B2B;
+  color: #ECECEC;
 }
